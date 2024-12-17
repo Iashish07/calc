@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 90%);
+
+}
+#calc{
+    max-width: 500px;
+    background-color: hsl(0, 0%, 30%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+.optbutton{
+   background-color: hsl(39, 100%, 40%);
+}
+.optbutton:hover{
+    background-color: hsl(39, 100%, 30%);
+
+}
+button{
+    height: 100px;
+    width: 100px;
+    background-color: hsl(0, 0%, 10%);
+    color: antiquewhite;
+    font-size: 3rem;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(0, 0%, 15%);
+}
+input{
+    width:100%;
+    font-size: 4rem;
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 15%);
+    color: antiquewhite;
+}
